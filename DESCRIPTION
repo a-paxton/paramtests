@@ -1,5 +1,5 @@
 Package: paramtests
-Title: Automated, Iterated Exploration of Mixed-Effects Model Parameters
+Title: Automated Exploration of Mixed-Effects Model Parameters
 Version: 0.0.0.9000
 Authors@R: person("Alexandra", "Paxton", , "paxton.alexandra@gmail.com", role = c("aut", "cre"))
 Description: This package facilitates exploration of parameter testing. This currently includes random slope structure ("mrest" function) and fixed and random effects structures ("omse" function).
