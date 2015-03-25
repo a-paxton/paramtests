@@ -13,7 +13,18 @@ DEPENDENCIES. "paramtests" functions require the following packages to run:
 
 INSTALLATION.  This package may be downloaded and installed or may be directly installed from R.
 
-	DOWNLOADING AND INSTALLING 
+	DOWNLOADING AND INSTALLING MANUALLY.
+	1. Download ZIP of paramtests.
+	2. Unzip file and change folder name to "paramtests" (from "paramtests-master").
+	3. Move folder to target location.
+	4. In R, change working directory to new parent folder for "paramtests".
+		setwd("/parent-folder-here/")
+	5. Install.
+		install("paramtests")
+	6. Confirm installation.
+		?paramtests
+		?omse
+		?mrest
 	
 	INSTALLING FROM GITHUB IN R.
 	1. Install (if necessary) and load "devtools" package.
